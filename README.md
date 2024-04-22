@@ -1,2 +1,2 @@
-# Embedded_mini_projects
+# Embedded_Basic
 
