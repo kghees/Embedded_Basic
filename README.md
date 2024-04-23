@@ -9,3 +9,55 @@
   OS = App + Shell + 커널로 구분될 수 있음  
   Linux는 Kernel이다.  
   Linux에 App,Shell을 추가하여 만든 하나의 운영체제를 "**리눅스 배포판**"이라고 한다.
+
+### 우분투(Ubuntu)  
+우분투는 리눅스 배포판 중 하나이다.
+  오픈 소스이며 리눅스 배포판 중 가장 널리 쓰이는 배포판이다.
+
+### 쉘(Shell)
+Shell은 시스템 사용자와 커널과의 **인터페이스를 제공하는 프로그램**이다.
+  컴퓨터를 켜면 OS가 부팅된 후, 실행되는 프로그램
+  Shell에는 두 가지 종류가 있다.
+  1. CLI Shell : 글자 기반 인터페이스
+  2. GUI Shell : 그래픽 기반 인터페이스
+### Shell Command
+- 터미널 창 열기 : Ctrl + Alt + T (단축키)
+- 터미널 창 닫기 : Ctrl + Shift + w
+- ls :  현재 있는 디렉토리 내 목록 출력
+- ls -al : a 옵션: all,숨김 파일까지 출력
+           l 옵션 : list, 리스트 형태로 상세 보기
+- cd
+     • cd .. : 상위디렉토리로이동하기
+     • cd “디렉토리이름” : 해당디렉토리로이동하기
+     • cd ~ :홈디렉토리로이동하기
+     • cd- : 이전디렉토리로되돌아가기
+- pwd : 현재 디렉토리 확인
+- clear : 화면 지우기
+**주의**
+  복사 붙여넣기 단축키는 터미널 창에서는 Ctrl + Insert / Shift + Insert 를 사용할 것
+
+### 파일관리 명령어  
+- touch [파일명] : 새로운 빈 파일을 생성한다.
+- rm [파일명] : 파일을 삭제한다.
+- mkdir [디렉토리명] : 디렉토리가 생성된다.
+- rmdir [디렉토리명] : 디렉토리를 삭제한다.
+  **rm -r [디렉토리명]**를 사용하면 디렉토리 내부 파일까지 모두 삭제 가능!
+- mv [파일명] : 이동 : mv [파일] [옮길 곳]
+                이름변경 : mv [파일] [파일이름]
+- cp [파일명] [경로] : 파일을 특정 경로로 복사하기
+                      -r 옵션 : 디렉토리 복사하기
+
+### vi
+vi(visual editor) : 화면 기반 Text Editor
+vim (vi improve) : vs code의 원조, 플러그인 설치 가능하도록 vi의 업그레이드 판
+#### vi를 실행해보자!
+- vi [파일명]
+- vi ./sample.txt
+![image](https://github.com/kghees/Embedded_Basic/assets/92205960/b8b93184-99bf-4901-87c7-91e26730901d)
+- vi를 실행하면 초기 command mode로 진입하게 된다.
+![image](https://github.com/kghees/Embedded_Basic/assets/92205960/32b7d304-18e7-4df7-a7f9-bf27ba640e19)
+- vi에 텍스트를 입력하려면 **"i"** 키를 누르고 입력한 후 저장하기 위해서는 command mode를 빠져나와 ESC키 누른 후 **:wq**입력해서 저장하면 된다.(w:저장,q:종료)(q!:강제종료)
+***vi 기본 모드 세가지***
+  1. command mode : 명령어 입력, 처음 실행 화면, ESC키로 진입
+  2. insert mode : 텍스트 입력 / 편집, command mode에서 i 입력해서 진입
+  3. visual mode : 텍스트 선택 / 편집, command mode에서 v 입력해서 진입
