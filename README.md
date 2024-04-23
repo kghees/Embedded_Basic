@@ -76,7 +76,7 @@ vim (vi improve) : vs code의 원조, 플러그인 설치 가능하도록 vi의 
 - /[검색어] : 다음 검색 :n, 이전 검색 : N ex) /hello 입력 후 엔터 하고 N/n눌러가면서 검색
 - %s/[검색어]/[변경]/g : 바꾸기 (g:global의 약어로, 파일 전체의 단어를 바꾸는 필수 옵션)
   
-### ECHO BOT 제작 Mini Project    
+## ECHO BOT 제작 Mini Project    
 **bulid code**
 ```
 gcc ./ssafy_bot.c -o ./gogo
