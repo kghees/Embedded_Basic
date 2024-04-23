@@ -67,6 +67,7 @@ vim (vi improve) : vs code의 원조, 플러그인 설치 가능하도록 vi의 
   1. command mode : 명령어 입력, 처음 실행 화면, ESC키로 진입
   2. insert mode : 텍스트 입력 / 편집, command mode에서 i 입력해서 진입
   3. visual mode : 텍스트 선택 / 편집, command mode에서 v 입력해서 진입
+
 **command 명령어들**
 - gg : 페이지 상단 이동
 - G : 페이지 하단 이동
