@@ -57,7 +57,16 @@ vim (vi improve) : vs code의 원조, 플러그인 설치 가능하도록 vi의 
 - vi를 실행하면 초기 command mode로 진입하게 된다.
 ![image](https://github.com/kghees/Embedded_Basic/assets/92205960/32b7d304-18e7-4df7-a7f9-bf27ba640e19)
 - vi에 텍스트를 입력하려면 **"i"** 키를 누르고 입력한 후 저장하기 위해서는 command mode를 빠져나와 ESC키 누른 후 **:wq**입력해서 저장하면 된다.(w:저장,q:종료)(q!:강제종료)
+  
 ***vi 기본 모드 세가지***
   1. command mode : 명령어 입력, 처음 실행 화면, ESC키로 진입
   2. insert mode : 텍스트 입력 / 편집, command mode에서 i 입력해서 진입
   3. visual mode : 텍스트 선택 / 편집, command mode에서 v 입력해서 진입
+**command 명령어들**
+- gg : 페이지 상단 이동
+- G : 페이지 하단 이동
+- u : 실행 취소
+- ctrl + r : 다시 실행
+- /[검색어] : 다음 검색 :n, 이전 검색 : N ex) /hello 입력 후 엔터 하고 N/n눌러가면서 검색
+- %s/[검색어]/[변경]/g : 바꾸기 (g:global의 약어로, 파일 전체의 단어를 바꾸는 필수 옵션)
+  
