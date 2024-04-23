@@ -11,7 +11,7 @@ int main(){
 		//exit나 bye가 들어오면 종료
 		if(strcmp(input,"exit") == 0 || strcmp(input,"bye") == 0)break;
 		else if(strcmp(input,"EXIT") == 0 || strcmp(input,"BYE") == 0)break;
-		// 그 외에는 출력
+		// 그 외에는 출력 
 		printf("%s\n",input);
 	}
 }
