@@ -83,4 +83,21 @@ gcc ./ssafy_bot.c -o ./gogo
 ./gogo
 ```
 #### 결과화면
-![image](https://github.com/kghees/Embedded_Basic/assets/92205960/a87efb23-9ac2-4493-afc5-ae13634c5153)
+![image](https://github.com/kghees/Embedded_Basic/assets/92205960/a87efb23-9ac2-4493-afc5-ae13634c5153)  
+
+
+### Build System  
+- Build할 때 필요한 여러 작업을 도와주는 프로그램들
+  ex) make
+
+### make  
+- 소프트웨어 빌드 자동화 도구
+- 소스 코드 파일로부터 실행 파일이나 라이브러리 등을 생성하는 데 사용된다.
+- 주로 C, C++ 그리고 다른 컴파일 가능한 언어픠 프로젝트에서 사용됨.
+- Makefile이라는 특별한 형식의 파일을 사용한다.
+#### Make Build System의 장점 두가지  
+1. Build 자동화
+     기술된 순서대로 Build 작업을 수행하는 자동화 스크립트 지원
+2. Build 속도 최적화
+     불필요한 Compile & Assemble 피하기
+     파일 간의 의존성을 추적하여, 파일이 변경된 경우에만 컴파일한다!
