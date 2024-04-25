@@ -80,6 +80,7 @@ vim (vi improve) : vs code의 원조, 플러그인 설치 가능하도록 vi의 
 ### 동작  
 - 사용자의 입력을 기다렸다가 입력 받은 문자열을 그대로 출력하는 프로그램
 - "exit" 혹은 "bye" 문자열 입력 시, 프로그램 종료 되는 BOT
+  
 **bulid code**
 ```
 gcc ./ssafy_bot.c -o ./gogo
