@@ -110,30 +110,32 @@ gcc ./ssafy_bot.c -o ./gogo
 • 프롬프트 : SSAFY > _  
 
 • 1 단계, 명령어 입력  
+  • date 입력시 : date 출력  
 
-• date 입력시 : date 출력  
+  • uptime 입력 : uptime 출력  
 
-• uptime 입력 : uptime 출력  
+  • ls 입력시 : ls –al 결과 출력  
 
-• ls 입력시 : ls –al 결과 출력  
+  • log 입력시 : dmesg 출력  
 
-• log 입력시 : dmesg 출력  
+  • exit 입력시 : 쉘 종료  
 
-• exit 입력시 : 쉘 종료  
-
-• 정확하지 않는 명령어 입력시 : “ERROR”;  
+  • 정확하지 않는 명령어 입력시 : “ERROR”;  
 
 • 2 단계, history 입력  
 
-• 명령어 입력한 내역 모두 출력하기 (번호와 함께 입력)  
+  • 명령어 입력한 내역 모두 출력하기 (번호와 함께 입력)  
 
-• ! 번호 입력 시 해당 명령어 입력하기  
+  • ! 번호 입력 시 해당 명령어 입력하기  
 
-• “hclear” 입력시 history 모두 삭제  
+  • “hclear” 입력시 history 모두 삭제  
 
-Makefile 제작해서 build  
+Makefile.c 제작해서 build  
 ```
 1. vi Makefile.c 로 c파일 만들어서 안에 코드 작성
 2. gcc ./Makefile.c -o ./ssafy 로 Build 시켜주기
 3. ./ssafy로 실행
 ```
+![image](https://github.com/kghees/Embedded_Basic/assets/92205960/1325ee14-b109-42e6-a3c2-3ce14da4535f)  
+![image](https://github.com/kghees/Embedded_Basic/assets/92205960/c44ff0b3-9940-4816-acb2-8ed5d80da0e5)
+
