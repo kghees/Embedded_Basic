@@ -97,7 +97,7 @@ gcc ./ssafy_bot.c -o ./gogo
 ### make  
 - 소프트웨어 빌드 자동화 도구
 - 소스 코드 파일로부터 실행 파일이나 라이브러리 등을 생성하는 데 사용된다.
-- 주로 C, C++ 그리고 다른 컴파일 가능한 언어픠 프로젝트에서 사용됨.
+- 주로 C, C++ 그리고 다른 컴파일 가능한 언어의 프로젝트에서 사용됨.
 - Makefile이라는 특별한 형식의 파일을 사용한다.
 #### Make Build System의 장점 두가지  
 1. Build 자동화
@@ -105,3 +105,35 @@ gcc ./ssafy_bot.c -o ./gogo
 2. Build 속도 최적화
      불필요한 Compile & Assemble 피하기
      파일 간의 의존성을 추적하여, 파일이 변경된 경우에만 컴파일한다!
+
+## SSAFY 쉘 제작하기 Project  
+• 프롬프트 : SSAFY > _  
+
+• 1 단계, 명령어 입력  
+
+• date 입력시 : date 출력  
+
+• uptime 입력 : uptime 출력  
+
+• ls 입력시 : ls –al 결과 출력  
+
+• log 입력시 : dmesg 출력  
+
+• exit 입력시 : 쉘 종료  
+
+• 정확하지 않는 명령어 입력시 : “ERROR”;  
+
+• 2 단계, history 입력  
+
+• 명령어 입력한 내역 모두 출력하기 (번호와 함께 입력)  
+
+• ! 번호 입력 시 해당 명령어 입력하기  
+
+• “hclear” 입력시 history 모두 삭제  
+
+Makefile 제작해서 build  
+```
+1. vi Makefile.c 로 c파일 만들어서 안에 코드 작성
+2. gcc ./Makefile.c -o ./ssafy 로 Build 시켜주기
+3. ./ssafy로 실행
+```
